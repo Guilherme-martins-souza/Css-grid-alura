@@ -1,7 +1,6 @@
 .destaques{
     display: grid;
     grid-gap: 1.3333%;
-    background-color: aquamarine;
     grid-template-columns: 24% 24% 24% 24%;
     grid-template-rows: 32.33% 32.33% 32.33%;
     height: calc(100vh - 50px);
@@ -76,4 +75,19 @@
 
 .destaques__categorias___link{
     color: inherit;
+}
+
+
+.caixa{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.destaques__titulo{
+    background: rgba(0, 0, 0, .5);
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
 }
