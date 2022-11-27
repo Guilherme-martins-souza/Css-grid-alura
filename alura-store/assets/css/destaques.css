@@ -12,10 +12,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    grid-column-start: 1;
+    /* parte movida para responsivo.css */
+    /* grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 3; */
 }
 
 /* valores default de todos os destaques secundarios */
@@ -27,34 +28,39 @@
 /* grid column e row sem shorthands */
 .destaques__secundario:nth-child(2){
     background-image: url('../img/pubg.jpg');
+    /* parte movida para responsivo.css
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 1;
+    grid-row-end: 1; */
 }
 
 /* column e row com shorthands */
 .destaques__secundario:nth-child(3){
     background-image: url('../img/slack.png');
+    /* parte movida para responsivo.css
     grid-column: 4 / 4 ;
-    grid-row: 2 / 3;
+    grid-row: 2 / 3; */
 }
 
 .destaques__secundario:nth-child(4){
     background-image: url('../img/whatsapp.png');
+    /* parte movida para responsivo.css
     grid-column: 4 / 4;
-    grid-row: 3 / 3;
+    grid-row: 3 / 3; */
 }
 
 .destaques__secundario:nth-child(5){
     background-image: url('../img/cs-go.jpg');
+    /* parte movida para responsivo.css
     grid-column: 3 / 3;
-    grid-row: 3 / 3;
+    grid-row: 3 / 3; */
 }
 
 .destaques__categorias{
+    /* parte movida para responsivo.css
     grid-column: 1 / 3;
-    grid-row: 3 / 3;
+    grid-row: 3 / 3; */
 }
 
 .destaques__categorias___lista{
